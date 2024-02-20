@@ -1,0 +1,25 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+  color: var(--lighgreen);
+  border: solid 1px #dfded9;
+  background: white;
+  border-radius: 15px;
+  width: 100px;
+  height: 120px;
+  transition: all 0.3s ease;
+}
+
+.Filter:hover {
+  cursor: pointer;
+  border-color: var(--green);
+  background: #e6e7e2;
+  color: var(--green);
+}
+
+.Filter span {
+  text-transform: capitalize;
+}

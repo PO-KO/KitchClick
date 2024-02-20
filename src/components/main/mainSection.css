@@ -1,0 +1,28 @@
+main {
+  padding: 0 25px;
+  width: 100%;
+}
+
+.Content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.Filters {
+  display: flex;
+  gap: 10px;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  transition: all 0.3s ease;
+}

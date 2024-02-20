@@ -1,0 +1,55 @@
+nav {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Search {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+}
+.Search input {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--lighgreen);
+  border: none;
+  outline: none;
+}
+.Search img {
+  width: 20px;
+}
+.Call {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+.Call a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.Call .Phone:hover {
+  text-decoration: underline;
+}
+
+.Call .Button {
+  padding: 13px 23px 13px 23px;
+  border-radius: 10px;
+  border: solid 2px var(--green);
+  background: var(--green);
+  color: var(--background);
+  transition: all 0.3s ease;
+}
+.Call .Button:hover {
+  color: var(--green);
+  background: var(--background);
+}

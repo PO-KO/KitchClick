@@ -1,0 +1,27 @@
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 600;
+  color: var(--lighgreen);
+  padding: 25px 15px 25px 15px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+.Item:hover {
+  cursor: pointer;
+  color: white;
+  background: var(--green);
+}
+.Item svg {
+  transition: all 0.3s ease;
+}
+.Item:hover svg {
+  color: var(--green);
+}
+
+.Item span {
+  text-transform: capitalize;
+}

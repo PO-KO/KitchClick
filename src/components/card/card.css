@@ -1,0 +1,95 @@
+.Card .Head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+.Card .Head img {
+  border-radius: 15px;
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+}
+.Card .Head h3 {
+  width: 200px;
+  font-size: 24px;
+}
+.Card .Head p {
+  width: 200px;
+}
+.Card .Info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 600;
+}
+.Card .Info p {
+  font-weight: 500;
+  color: var(--lighgreen);
+}
+.Card .Body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 325px;
+  width: calc(50% - 10px);
+}
+.Card:hover {
+  height: auto;
+}
+.Card:hover .Button {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.Card .Button {
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(-120px);
+  text-decoration: none;
+  text-align: center;
+  margin-top: 25px;
+  padding: 13px 23px 13px 23px;
+  border-radius: 10px;
+  border: solid 2px var(--green);
+  background: var(--green);
+  color: var(--background);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.Card .Button:hover {
+  color: var(--green);
+  background: white;
+}
+.Supps {
+  display: flex;
+  gap: 10px;
+}
+.Supp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 500;
+  color: var(--lighgreen);
+  border: solid 1px #dfded9;
+  background: white;
+  border-radius: 75px;
+  padding: 5px 20px;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+.Supp:hover {
+  cursor: pointer;
+  border-color: var(--green);
+  background: #e6e7e2;
+  color: var(--green);
+}
